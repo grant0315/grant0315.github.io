@@ -44,7 +44,8 @@ body{
 		}
 
 		.img-rabbit{
-			/*margin: 0 -15px;*/
+			margin: 0 -15px;
+			position: center;
 		}
 
 		.btn-group-vertical{
@@ -53,8 +54,8 @@ body{
 
     	.info{
 			font-family: "Crimson";
-			line-height: 28px;
-		    font-size: 16px;
+			line-height: 32px;
+		    font-size: 20px;
 		    padding-top: 15px;
 		    padding-right: 50px;
 		}
@@ -312,4 +313,8 @@ footer{
 }
 .show{
 	display: block;
+}
+.skill-logos img {
+	max-width: 80px;
+	max-height: 80px;
 }
