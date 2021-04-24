@@ -1,10 +1,10 @@
 body{
-	background-color: #f9f9f9;
+	background-color: #0F1112;
 	font-family: "Crimson Text";
 }
 
 .main{
-	background: #fff;
+	background: #181C1F;
 }
 
 .home-description{
@@ -36,16 +36,21 @@ body{
 	}
 
 
-@media (min-width: 778px)
+@media (min-width: 900px)
 {
 		.main{
 			height: 100vh;
 			overflow: hidden;
 		}
 
+		.logo {
+			padding: 0px;
+		}
+
 		.img-rabbit{
 			margin: 0 -15px;
 			position: center;
+			padding-bottom: 0%;
 		}
 
 		.btn-group-vertical{
@@ -66,6 +71,7 @@ body{
 			
 		}
 }
+
 .img-rabbit{
 	width: 100%;
 }
