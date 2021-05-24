@@ -208,8 +208,7 @@ footer{
 }
 
 .submit{
-
-	font-family: "Crimson"
+	font-family: "Crimson";
 	font-size: 16px;
 }
 
@@ -323,4 +322,9 @@ footer{
 .skill-logos img {
 	max-width: 80px;
 	max-height: 80px;
+}
+
+.project-img {
+	width: 200px;
+	height: 125px;
 }
