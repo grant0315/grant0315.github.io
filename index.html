@@ -30,10 +30,10 @@
                     <div id = "index_right" class="col-md-6 text-center right">
                         <div class="logo">
                             <img src="./assets/images/logo.png">
-                            <h4>I am Grant Hopkins</h4>
+                            <h4 class="header-text">Grant Hopkins</h4>
                         </div>
-                        <p class="home-description">
-                            Hi, I am Grant Hopkins, Web developer from the DFW metroplex. I am passionate about design, development and interaction.
+                        <p class="home-description sub-text">
+                            Hi, I'm Web developer from the DFW metroplex that is passionate about design, development and interaction.
                         </p>
                         <div class="btn-group-vertical custom_btn animated slideinright">
                             <div id="about" class="btn btn-rabbit">About</div>
@@ -50,46 +50,40 @@
             </div>
         </div>                                                      <!-- index ends here -->
 
-        <div id="about_scroll" class="pages ">                      <!-- about strats here  -->
+        <div id="about_scroll" class="pages">                      <!-- about strats here  -->
             <div class="container main">
-                <div class="row">
-                    <div class="col-md-6 left" id="about_left">
-                        <img class="img-responsive img-rabbit" src="./assets/images/about.jpg">
+                <div class="" id="about_right">
+                    <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
+                    <div id="watermark">
+                        <h2 class="page-title header-text" text-center>About</h2>
+                        <div class="marker">a</div>
                     </div>
-
-                    <div class="col-md-6 right" id="about_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>About</h2>
-                            <div class="marker">a</div>
-                        </div>
-                        <p class='subtitle'>Hi, I am Grant Hopkins. A computer science student at WGU, and front-end developer.
-                        </p>
-                        <p class="info">
-                            I've been programming as a hobby since I was 15, 
-                            and now it's grown into a career. I've especially found
-                            interests in web development and more complex web applications.
-                            <br>
-                            The love for programming comes from the the joy of solving problems.
-                            Which is why I always looks for new ways to solve said problems.
-                            Whether it be new frameworks, languages, or implementations. 
-                        </p>  
-
-                        <div class="skill-logos">
-                            <img src=".\assets\images\logos\express-js-seeklogo.com.svg" alt="express.js logo">
-                            <img src=".\assets\images\logos\HTML5_logo_and_wordmark.svg" alt="html5 logo">
-                            <img src=".\assets\images\logos\java-seeklogo.com.svg" alt="java logo">
-                            <img src=".\assets\images\logos\javascript-js-seeklogo.com.svg" alt="Javascript logo">
-                            <img src=".\assets\images\logos\material-ui-seeklogo.com.svg" alt="Material ui logo">
-                            <img src=".\assets\images\logos\nodejs-seeklogo.com.svg" alt="node js logo">
-                            <img src=".\assets\images\logos\npm-node-package-manager.svg" alt="NPM package manager logo">
-                            <img src=".\assets\images\logos\python-seeklogo.com.svg" alt="python logo">
-                            <img src=".\assets\images\logos\react-seeklogo.com.svg" alt="react.js logo">
-                            <img src=".\assets\images\logos\svelte-seeklogo.com.svg" alt="svelte logo">
+                    <p class='subtitle sub-text'>A computer science student at WGU, and passionate software developer.</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    With a passion for programming that ignited at the age of 15, I have diligently honed my skills to transition from a hobbyist to a consummate professional. My enthusiasm has led me to specialize in web development, with a particular focus on crafting sophisticated web applications.
+                                    Driven by an inherent fascination with problem-solving, I continually seek innovative approaches to tackle challenges. This unwavering curiosity fuels my exploration of novel frameworks, programming languages, and implementation strategies, as I endeavor to deliver exceptional results in the ever-evolving world of web development.
+                                </p>    
+                            </div>
+                            <div class="col">
+                                <p>
+                                    Driven by an inherent fascination with problem-solving, I continually seek innovative approaches to tackle challenges. This unwavering curiosity fuels my exploration of novel frameworks, programming languages, and implementation strategies, as I endeavor to deliver exceptional results in the ever-evolving world of web development.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>            
+                <!--
+                <div class="col-md-6 left" id="about_left">
+                    <img class="img-responsive img-rabbit" src="./assets/images/about.jpg">
+                </div>
+                -->
+            </div> 
+            <div class="container">
+                <iframe src="./assets/resume.pdf" width="100%" height="1200px"></iframe>
+            </div>           
         </div>                                                                <!-- About ends here -->
 
 
@@ -97,31 +91,31 @@
         <div id="work_scroll" class="pages">                                  <!-- Work starts here -->
             <div class="container main">
                 <div class="row">
+                    <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
+                        <div id="watermark">
+                            <h2 class="page-title header-text" text-center>Work</h2>
+                            <div class="marker">w</div>
+                        </div>
+                    <h2 class='subtitle sub-text'>This is a selection of my web design and development work. </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" id="work_right">
+                        <img class="project-img" src=".\assets\images\assetscapture.png" alt="royalassets mockup project">
+                        <h3 class="info header-text">Investment App Website mock-up</h3>
+                        <p class="sub-text">A website made with looks in mind, using bootstrap as well as other external libraries for animation and paralaxing background elements.</p>
+                        <h4><a href="https://royalassets.netlify.app/" style="font-size: 50px;">Live Website</a></h4>
+                    </div>
+                    <div class="col-md-6" id="work_left">
+                        <img class="project-img" src=".\assets\images\watchscapture.png" alt="andys watchs mockup project">
+                        <h3 class="info header-text">Watch Website mock-up</h3>
+                        <p class="sub-text">A website created using standard html5 and css, as well as external javascript libraries for animation.</p>
+                        <h4><a href="https://andyswatchs.netlify.app/" style="font-size: 50px;">Live website</a></h4>
+                    </div>
+                    <!--
                     <div class="col-md-6" id="work_left">
                         <div class="item"><img class="img-responsive img-rabbit" src=".\assets\images\work.jpg"></div>
                     </div>
-
-                    <div class="col-md-6" id="work_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Work</h2>
-                            <div class="marker">w</div>
-                        </div>
-
-                        <h2 class='subtitle'>This is a selection of my web design and development work. </h2>
-                        
-                        <img class="project-img" src=".\assets\images\assetscapture.png" alt="royal .\assets mockup project">
-                        <h3 class="info">Investment App Website mock-up</h3>
-                        <p>A website made with looks in mind, using bootstrap as well as other external libraries for animation and paralaxing background elements.</p>
-                        <h4><a href="https://royalassets.netlify.app/">Live Website</a></h4>
-
-                        <br>
-                        
-                        <img class="project-img" src=".\assets\images\watchscapture.png" alt="andys watchs mockup project">
-                        <h3 class="info">Watch Website mock-up</h3>
-                        <p>A website created using standard html5 and css, as well as external javascript libraries for animation.</p>
-                        <h4><a href="https://andyswatchs.netlify.app/">Live website</a></h4>
-                    </div>
+                    -->
                 </div>
             </div>    
         </div>                                                                 <!-- Work ends here  -->
@@ -130,17 +124,15 @@
         <div id="contact_scroll" class="pages">                             <!-- Contact starts here -->
             <div class="container main">
                 <div class="row">
-                    <div class="col-md-6 left" id="contact_left">
-                        <img class="img-responsive img-rabbit" src=".\assets/images/contact.jpg">
-                    </div>
+                   
 
                     <div class="col-md-6 right" id="contact_right">
                         <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
                         <div id="watermark">
-                            <h2 class="page-title" text-center>Contact</h2>
+                            <h2 class="page-title header-text" text-center>Contact</h2>
                             <div class="marker">c</div>
                         </div>
-                        <p class='subtitle'>I'm always excited for opportunities to learn and grow as a developer. Drop me a line, if your interested in working together.
+                        <p class='subtitle sub-text'>I'm always excited for opportunities to learn and grow as a developer. Drop me a line, if your interested in working together.
                         </p>
                         <!-- form -->
                         <form class="form_edit"> 
@@ -158,6 +150,11 @@
                             <button type="submit" class="btn btn-rabbit submit">Send Message</button>
                         </form>
                     </div>
+                    <!--
+                    <div class="col-md-6 left" id="contact_left">
+                        <img class="img-responsive img-rabbit" src=".\assets/images/contact.jpg">
+                    </div>
+                    -->
                 </div>
             </div>
        

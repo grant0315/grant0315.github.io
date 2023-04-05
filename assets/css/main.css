@@ -1,11 +1,17 @@
 body{
-	background-color: #f9f9f9;
 	font-family: "Crimson Text";
+	background-image: url("../images/background.jpg");
+	background-size: contain;
 }
 
 .main {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+#index {
+	background-image: url("../images/background.jpg");
+	background-size: contain;
 }
 
 .home-image {
@@ -20,28 +26,39 @@ body{
 	height: 100%;
 }
 
-.main{
-	background: #fff;
+.header-text {
+	color: #fff;
+	font-size: 50px;
 }
 
-.home-description{
-	font-style: italic;
+.sub-text {
+	color: #ffffffe1;
+	font-family: "Josefin Sans";
+}
+
+.home-description {
 	font-weight: 600;
-	font-family: "Crimson";
-	font-size: 19px;
+	font-family: "Josefin Sans";
+	font-size: 26px;
     padding-top: 15px;
     padding-bottom: 25px;
+	padding-left: 0px;
+	padding-right: 0px;
     line-height: 29px;
+	color: #fff
+}
 
+#work_scroll {
+	display: flex;
 }
 
 .social a i{
 	height: 40px;
 	width: 40px;
-	border: 1px solid #111;
+	border: 1px solid #fff;
 	line-height: 40px;
 	margin: 0 10px;
-	color: #111;
+	color: #fff;
 	font-size: 20px;
 	padding-bottom: 20px;
 	}
@@ -75,11 +92,14 @@ body{
     	}
 
     	.info{
-			font-family: "Crimson";
-			line-height: 32px;
-		    font-size: 20px;
-		    padding-top: 15px;
-		    padding-right: 50px;
+			color: #fff;
+			font-size: 14px; 
+			line-height: 24px; 
+			padding: 15px;
+			margin: 0 0 24px; 
+			text-align: justify; 
+			text-justify: inter-word; 
+			font-family: "Josefin Sans";
 		}
 		
 		.home-description{
@@ -100,41 +120,56 @@ body{
 .btn-rabbit{
 	background-color: #fff;
 	color: #111;
-	font-style: italic;
 	border: 1px solid #111;
-	border-radius: 0px !important;
+	border-radius: 5px !important;
 	transition: all 0.4s ease-in-out;
 	margin-bottom: 20px;
-	font-family: "Crimson";
-	font-size: 13px;
+	font-family: "Josefin Sans";
+	font-size: 22px;
+	font-weight: bold;
 	}
 
 .btn-rabbit:hover{
 	color: #fff;
 	background-color: #bb9e7d;
-	border-color: #bb9e7d;}
+	border-color: #bb9e7d;
+}
 
 p{
-	color: #585757;
-	font-size: 16px;
-	
+	color: #fff;
+	font-size: 24px; 
+	line-height: 24px; 
+	padding: 15px;
+	margin: 0 0 24px; 
+	text-align: justify; 
+	text-justify: inter-word; 
+	font-family: "Josefin Sans";
 }
 
 .page-title{
 	text-transform: uppercase;
 	font-family: 'Josefin Sans';
+	color: #bb9e7d;
 }
 
 /*Home Style*/
 .logo{
 	text-transform: uppercase;
-	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .logo h4{
 	font-family: 'Josefin Sans';
+	justify-content: center;
+	text-decoration: underline;
+	font-size: 50px;
 }
 
+.logo img{
+	padding: 20px;
+}
 
 footer{
 	padding: 22px 0 10px 0;
@@ -236,10 +271,9 @@ footer{
 .subtitle{
 	font-style: italic;
 	font-weight: 600;
-	font-size: 20px;
-	color: #3b3b3b;
+	font-size: 30px;
 	line-height: 28px;
-	font-family: "Crimson";
+	font-family: "Josefin Sans";
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-right: 40px;
@@ -256,14 +290,15 @@ footer{
 	bottom: -7px;
 }
 
-#watermark .marker{
+.marker{
 	position: absolute;
 	font-size: 60px;
-	opacity: 0.1;
+	opacity: 0.4;
 	font-family: "Josefin Sans";
 	text-transform: uppercase;
 	left: 0;
 	top: -5px;
+	color: #bb9e7d;
 }
 
 #watermark{
@@ -332,7 +367,7 @@ footer{
 		height: auto;
 	}
 	.home-image {
-		margin-bottom: -200px;
+		margin-bottom: 20px;
 	}
 	
 }
@@ -350,6 +385,6 @@ footer{
 }
 
 .project-img {
-	width: 200px;
-	height: 125px;
+	width: 100%;
+	height: 100%;
 }
