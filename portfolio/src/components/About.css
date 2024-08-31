@@ -1,0 +1,25 @@
+/* src/components/About.css */
+.about-section {
+    background-color: #ffffff;
+    padding: 80px 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #007bff;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+  }

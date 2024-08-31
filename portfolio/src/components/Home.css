@@ -1,0 +1,43 @@
+/* src/components/Home.css */
+.home-section {
+    background-color: #f9f9f9;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .intro {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .profession {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .contact-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    background-color: #0056b3;
+  }
