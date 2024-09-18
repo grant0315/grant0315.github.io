@@ -1,19 +1,29 @@
 /* src/components/Home.css */
 .home-section {
-    background-color: #f9f9f9;
     padding: 80px 20px;
     text-align: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
   }
   
   .intro {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
   }
   
   .intro-title {
-    font-size: 2.5rem;
+    font-size: 6rem;
+  }
+
+  .intro-subtitle {
+    font-size: 6rem;
     margin-bottom: 20px;
-    color: #333;
   }
   
   .intro-text {
@@ -22,12 +32,7 @@
     color: #666;
   }
   
-  .profession {
-    font-weight: bold;
-    color: #007bff;
-  }
-  
-  .contact-link {
+  .about-link {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -38,6 +43,6 @@
     transition: background-color 0.3s ease;
   }
   
-  .contact-link:hover {
+  .aobut-link:hover {
     background-color: #0056b3;
   }
